@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .player {
+        height: 100vh;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+
+    .track-art {
+        height: 100px;
+        width: 100px;
+    }
+
+    .track-name {
+        font-size: 1.5rem;
+    }
+
+    .track-artist {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        margin-bottom: 15px;
+    }
+
+    .random-track,
+    .prev-track,
+    .playpause-track,
+    .next-track,
+    .repeat-track {
+        padding: 15px;
+    }
+
+    .seek_slider,
+    .volume_slider {
+        height: 3px;
+    }
+
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+        width: 10px;
+        height: 10px;
+    }
+
+    .current-time,
+    .total-duration {
+        padding: 5px;
+    }
+}
+
+
